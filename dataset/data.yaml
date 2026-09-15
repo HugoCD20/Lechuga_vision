@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['Bacterial', 'Downy_mildew', 'Lettuce - Anthracnose', 'Powdery_mildew', 'Septoria_Blight', 'healthy', 'lettuce mosaic virus']
+
+roboflow:
+  workspace: hugo-david-nogueda-hernandez
+  project: disease-lettuce-h69zb-384qi
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hugo-david-nogueda-hernandez/disease-lettuce-h69zb-384qi/dataset/1
